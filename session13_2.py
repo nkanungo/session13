@@ -48,7 +48,7 @@ class Polygon:
         '''
         Calculates the Area to Perimeter ratio for the Polygons
         '''
-        edge = edge +1
+        #edge = edge +1
         return round((1/2) * circumradius * math.cos((math.pi/edge)),3)
 
     def _max_eff(self,seq_list):
